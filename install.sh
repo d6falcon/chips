@@ -1,7 +1,6 @@
 #!/bin/sh
 # Installation script for the OSSEC
-# Author: Daniel B. Cid <daniel.cid@gmail.com>
-# Last modification: Aug 30, 2012
+# Last modification: Oct 30, 2015
 
 # Changelog 19/03/2006 - Rafael M. Capovilla <under@underlinux.com.br>
 # New function AddWhite to allow users to add more Ips in the white_list
@@ -12,6 +11,8 @@
 # New function AddTable to add support for OpenBSD pf rules in firewall-drop active response
 
 # Changelog 29 March 2012 - Adding hybrid mode (standalone + agent)
+# Modified OSSEC agent to add IPS responses based on Snort signatures
+# Author: Srikanth Dabbiru
 
 
 
